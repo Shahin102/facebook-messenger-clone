@@ -1,4 +1,4 @@
-import { Button, FormControl, Input, InputLabel } from '@material-ui/core';
+import { FormControl, Input } from '@material-ui/core';
 import { useEffect, useState } from 'react';
 import './App.css';
 import db from './firebase';
@@ -39,7 +39,7 @@ function App() {
 
   return (
     <div className="App">
-      <img src="https://facebookbrand.com/wp-content/uploads/2018/09/Header-e1538151782912.png?w=100&h=100" />
+      <img src="./messenger.jpg" alt="" />
       <h1>Messenger-clone🚀</h1>
       <h2>Welcome {username}</h2>
 
